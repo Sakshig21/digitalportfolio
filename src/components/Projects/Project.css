@@ -1,0 +1,202 @@
+.project_wrapper{
+    background-color: rgba(17, 17, 17, 0.8);
+    padding: 50px 0;
+    
+    
+   
+    
+  
+    
+}
+.row-project{
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+.row-project1{
+    margin-top: 50px;
+   
+    justify-content: center;
+}
+.project_title{
+    color: rgb(35, 34, 34);
+    margin-top: 50px;
+}
+.img-contain{
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+    
+    
+    transition: 0.4s;
+    height:400px;
+    overflow: hidden;
+}
+.img-contain1{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-end;
+}
+.logo{
+    width: 30%;
+}
+.logo1{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.img-html{
+    width: 100%;
+    
+   
+}
+.contain-react{
+   
+}
+
+.img-contain:hover .hover-contain{
+    display: block;
+}
+.img-contain:hover .img-html{
+    opacity: 0.2;
+}
+
+
+.hover-contain{
+    display: none;
+    transform: 0.5s;
+    border: 5px solid grey;
+    
+    
+    
+    
+}
+/* .box-1{
+    height: 100%;
+    width: 70%;
+    background-color: rgba(47, 46, 46, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0.2;
+   
+} */
+
+
+.hover-btn{
+    
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+}
+.icon-hover{
+    color: aqua;
+    font-size: 45px;
+    border: 1px solid aqua;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: 0.5s;
+}
+.icon-hover:hover{
+    background-color: aqua;
+    color: white;
+    border: none;
+}
+.hover-text{
+    
+    color: aqua;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.hover-text>h4{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.project_head{
+    margin: 60px 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive css  */
+
+
+@media(max-width:768px){
+    .project_title{
+        font-size: 60px;
+    }
+    .project-para{
+        font-size: 25px;
+        left: 42%;
+        top: 20px;
+    }
+    .hover-btn{
+    
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        
+    }
+
+}
+
+@media (max-width:576px){
+    .img-html{
+        width: 100%;
+        margin-top: 30px;
+       
+    }
+    .box-1{
+        height: 90%;
+        width: 60%;
+        background-color: rgba(47, 46, 46, 0.9);
+        position: absolute;
+        top: 10%;
+        left: 20%;
+       
+    }
+    .project_head{
+        font-size: 18px;
+        margin: 20px 0 !important;
+    }
+    .hover-btn{
+    
+        position: absolute;
+        top: 40% !important;
+        left: 32% !important;
+        
+    }
+    .hover-text{
+        color: aqua;
+        position: absolute;
+        bottom: 5%;
+        left: 18% !important;
+    }
+    .project_title{
+        font-size: 50px;
+    }
+    .project-para{
+        font-size: 20px;
+        left: 35%;
+        top: 15px;
+    }
+}

@@ -1,0 +1,49 @@
+.header_wrapper{
+  background-color: grey;
+  height: 20px;
+
+}
+.nav-item{
+   padding: 10px ;
+}
+.nav-link{
+    color: rgb(167, 197, 187) !important;
+    font-size: 20px;
+    font-weight: 600;
+   
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav1{
+    margin-top: 7px;
+}
+.main-btn2{
+    color: aqua;
+    background-color:rgb(77, 76, 76) ;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.6s;
+    
+   
+}
+.main-btn2:hover{
+    border:1px solid rgb(25, 24, 24);
+    color: grey;
+    background-color: transparent;
+}
+.navbar{
+    background-color: rgb(31, 30, 30);
+    
+}
+.menu-navbar-nav{
+ 
+    text-align: center;
+   
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}

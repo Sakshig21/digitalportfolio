@@ -1,0 +1,66 @@
+.skills{
+    background-color: rgba(17, 17, 17);
+  
+    text-align: center;
+    padding: 60px 0;
+    
+    
+   
+}
+.skills_wrapper{
+    margin-top: 100px !important;
+    width: 80%;
+    margin-bottom: 80px;
+}
+.skill_title{
+    margin-top: 50px;
+}
+.skill_contain{
+    display: flex;
+    justify-content: center;
+}
+.single-progress{
+    color: aqua;
+    position: relative;
+}
+.progress{
+    height: 6px !important;
+    color: aqua;
+    
+}
+.label{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+.progress-bar{
+    background:linear-gradient(-224deg, rgb(0, 255, 238) 0,rgb(0, 179, 255) 100%); 
+}
+
+@media (max-width:768px){
+    .skill_para{
+        font-size: 25px;
+        left: 28%;
+        top: 14px;
+    }
+    .single-progress-adobe{
+        margin-top: 50px;
+
+    }
+}
+@media(max-width:576px){
+    .skill_title{
+        font-size: 38px;
+    }
+    .single-progress-adobe{
+        margin-top: 50px;
+
+    }
+    .skill_para{
+        font-size: 22px;
+        left: 25%;
+        top: 10px;
+    }
+}

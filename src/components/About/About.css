@@ -1,0 +1,226 @@
+.about{
+  
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+    
+    background-color: rgba(17, 17, 17);
+    padding: 50px;
+}
+.about_title{
+    margin-top: 50px;
+    color: rgb(50, 50, 50);
+   
+}
+.title_para-head{
+    position: absolute;
+top: 84px;
+left:30%;
+font-size: 2.2rem;
+font-weight: 600;
+font-style: "Poppins";
+color: white;
+border-bottom: 2px solid aqua;
+}
+.logo-img{
+    width: 100%;
+}
+
+.box-img{
+    background-color: black;
+    width: 350px;
+    height: 450px ;
+    
+   
+}
+
+.about_right{
+   color: white;
+   text-align: center;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.interest1{
+   display: flex;
+   justify-content: center;
+   width: 60%;
+  
+}
+
+.icon{
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid aquamarine;
+    padding: 20px;
+    color: aqua;
+   font-size: 80px;
+   display: flex;
+   justify-content: center;
+   transition: 0.8s;
+}
+.icon_text{
+    color: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+    visibility: hidden;
+    text-align:center;
+   
+}
+.align{
+    display: flex;
+    justify-content: center;
+}
+.hover{
+    display: flex;
+   
+    justify-content: center;
+    flex-direction: column;
+}
+.hover:hover .icon {
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+   
+}
+.hover:hover .icon_text{
+    visibility: visible;
+}
+
+.heading{
+    text-align: center;
+    color: aqua;
+    margin-bottom: 40px;
+}
+.about_wrapper{
+    margin: 60px  0 !important;
+}
+.about_left{
+    display: flex;
+    justify-content: center;
+}
+.about_right{
+    display: flex;
+    
+    margin-top: 50px !important;
+    flex-direction: column;
+    
+    color: white;
+}
+
+/* responsive css  */
+@media (max-width:576px){
+    .box-img{
+        background-color: black;
+        width: 350px;
+        height:300px ;
+    }
+
+    .interest1{
+        display: flex;
+        justify-content: center;
+       
+     }
+     
+     .icon{
+         border-radius: 50%;
+         background-color: transparent;
+         border: 2px solid aquamarine;
+         padding: 20px;
+         color: aqua;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+     }
+     .icon_text{
+         color: aqua;
+         margin-top: 10px;
+         margin-left: 10px;
+         visibility: hidden;
+         text-align:center;
+        
+     }
+     .title_para-head{
+        position: absolute;
+    top: 10px;
+    left:20%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: "Poppins";
+    color: white;
+    border-bottom: 2px solid aqua;
+    }
+   .row2{
+    display: flex;
+    justify-content: center;
+   }
+       
+}
+
+
+
+@media (max-width:768px){
+    .title_para-head{
+        position: absolute;
+        top: 27px;
+        left: 30%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: "Poppins";
+    color: white;
+    border-bottom: 2px solid aqua;
+    }
+    .align{
+        margin: 0 20px
+    }
+}
+@media (max-width:576px){
+    .box-img{
+        background-color: black;
+        width: 300px;
+        height:300px ;
+    }
+    .heading{
+        text-align: center;
+        color: aqua;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .icon{
+        border-radius: 50%;
+        background-color: transparent;
+        border: 2px solid aquamarine;
+       margin: 0 50px;
+        color: aqua;
+       font-size: 60px;
+       display: flex;
+       justify-content: center;
+    }
+    .icon_text{
+        color: aqua;
+        margin-top: 10px;
+        margin-left: 10px;
+        visibility: hidden;
+        text-align:center;
+       
+    }
+    .align{
+        margin: 0 20px;
+    }
+    .about_title{
+        font-size: 45px !important;
+    }
+    .title_para-head{
+        position: absolute;
+    top: 10px;
+    left:20%;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: "Poppins";
+    color: white;
+    border-bottom: 2px solid aqua;
+    }
+}
