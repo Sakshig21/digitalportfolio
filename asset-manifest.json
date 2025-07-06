@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/repo-name/static/css/main.04794985.css",
+    "main.js": "/repo-name/static/js/main.9471608f.js",
+    "static/media/web-1.png": "/repo-name/static/media/web-1.95b3624fd47429530852.png",
+    "static/media/agriculture.png": "/repo-name/static/media/agriculture.fcacd41d061af7214490.png",
+    "static/media/web-3.png": "/repo-name/static/media/web-3.97643abd3ff37db30f8c.png",
+    "static/media/coffee.png": "/repo-name/static/media/coffee.a103dc5f7355946330ec.png",
+    "static/media/food.png": "/repo-name/static/media/food.f6bcc5f846a0e5029416.png",
+    "static/media/webgurukul.png": "/repo-name/static/media/webgurukul.062bc34d90a04f4e9a1c.png",
+    "static/media/ambe-ai.png": "/repo-name/static/media/ambe-ai.3633f159cee57d80dc3d.png",
+    "static/media/UI.jpg": "/repo-name/static/media/UI.a5dc3cca236a5e793099.jpg",
+    "static/media/web-5.png": "/repo-name/static/media/web-5.3d42ee5ef9f8066109f4.png",
+    "static/media/web-6.png": "/repo-name/static/media/web-6.de7144c6d0ccb0686bf2.png",
+    "static/media/web-4.png": "/repo-name/static/media/web-4.71e1f3bc5ee7f3113482.png",
+    "static/media/spa.png": "/repo-name/static/media/spa.648479756b23758761b2.png",
+    "static/media/web-2.png": "/repo-name/static/media/web-2.b7bfbc9e94dcb33be09f.png",
+    "static/media/bestloan.png": "/repo-name/static/media/bestloan.80b414ca383b13d63ae9.png",
+    "static/media/interior.png": "/repo-name/static/media/interior.8f25518ba69a7a6d3caf.png",
+    "static/media/wireframe.png": "/repo-name/static/media/wireframe.abe7809a1bf6134753b1.png",
+    "index.html": "/repo-name/index.html",
+    "main.04794985.css.map": "/repo-name/static/css/main.04794985.css.map",
+    "main.9471608f.js.map": "/repo-name/static/js/main.9471608f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04794985.css",
+    "static/js/main.9471608f.js"
+  ]
+}
